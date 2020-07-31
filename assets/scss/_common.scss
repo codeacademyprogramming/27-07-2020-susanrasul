@@ -1,0 +1,37 @@
+.container{
+    width: $container;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.desc-f-style{
+    @include font-style(17px,400,27px,#77838F);
+    text-decoration: none;
+}
+
+.section-head-f-style{
+    @include font-style(32px,400,42px,#1E2022);
+}
+
+.blue-button{
+    @include font-style(14px,600,19px,white);
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #0F70EB;
+    border-radius: 4px;
+    padding: 15px 40px;
+    border: none;
+}
+
+.light-blue-button{
+    @include font-style(14px,600,19px,#0F70EB);
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #EDF3FF;
+    border-radius: 4px;
+    padding: 15px 40px;
+    border: none;
+}
