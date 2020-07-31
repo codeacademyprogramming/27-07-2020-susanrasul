@@ -1,0 +1,7 @@
+
+$(function(){
+
+    $(`.owl-carousel`).owlCarousel();
+
+});
+
